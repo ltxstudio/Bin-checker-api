@@ -1,0 +1,19 @@
+{
+  "name": "bin-checker-api",
+  "version": "1.0.0",
+  "description": "A BIN checker API for retrieving card information based on the BIN number.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "csv-parser": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["bin", "api", "nodejs", "csv"],
+  "author": "Your Name",
+  "license": "MIT"
+}
